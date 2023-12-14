@@ -21,7 +21,7 @@ body{
 }
 @keyframes glow{
     0%, 100%{
-        color: pink;
+        color: white;
         text-shadow: 0 0 12px #dc6bd3, 0 0 50px #ab6db4, 0 0 100px;
     }
     10%, 90%{
@@ -53,7 +53,12 @@ body{
 .button a{
     text-decoration: none;
     font-size: 1rem;
-    color: #111;
+    color: white;
+}
+
+.button button{
+    background-color: #dc6bd3;
+    border: none;
 }
 
 @media screen and (max-width:574px){
